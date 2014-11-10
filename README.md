@@ -12,11 +12,11 @@ Anodot graphite relay service - Docker
 - `docker build -t anodot .`
 - `docker run -d -p 2003:2003 -p 2004:2004 -t anodot`
 
-#### [Docker Hub](https://registry.hub.docker.com/u/shdlabs/anodot-relay/) 
+#### [Docker Hub](https://registry.hub.docker.com/u/alexshd/anodot-relay/) 
 
 ##### Dockerfile
 ```
-FROM shdlabs/anodot-relay 
+FROM alexshd/anodot-relay 
 ADD ./config.json /opt/
 EXPOSE 2003 2004
 CMD ["/usr/local/bin/relay", "/opt/config.json"]
