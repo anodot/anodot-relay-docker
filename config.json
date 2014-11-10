@@ -1,0 +1,9 @@
+{
+    "url": "https://api.anodot.com",
+    "token": "<YOUR ANODOT TOKEN>",
+    "log": "error",
+    "showStats": false,
+    "plainPort": 2003,
+    "picklePort": 2004,
+    "flushInterval": 5000
+}
