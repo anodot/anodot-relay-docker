@@ -26,13 +26,19 @@ CMD ["/usr/local/bin/relay", "/opt/config.json"]
 ```
 {
     "url": "https://api.anodot.com",
-    "token": "<YOUR ANODOT SERVISE TOKEN>",
+    "token": "<YOUR API TOKEN>",
     "log": "error",
     "showStats": false,
+    "sendStats": true,
     "plainPort": 2003,
     "picklePort": 2004,
-    "flushInterval": 5000
+    "flushInterval": 5000,
+    "metricFilter": "",
+    "metricRewrite": []
 }
+
+for more details refer to https://www.npmjs.org/package/anodot-relay
+
 ```
 
 ##### Using the service 
