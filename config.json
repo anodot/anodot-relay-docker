@@ -1,9 +1,13 @@
 {
     "url": "https://api.anodot.com",
-    "token": "<YOUR ANODOT TOKEN>",
+    "token": "<YOUR API TOKEN>",
     "log": "error",
     "showStats": false,
+    "sendStats": true,
     "plainPort": 2003,
     "picklePort": 2004,
-    "flushInterval": 5000
+    "flushInterval": 5000,
+    "metricFilter": "",
+    "metricRewrite": []
 }
+
