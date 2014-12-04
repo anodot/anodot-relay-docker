@@ -37,9 +37,10 @@ CMD ["/usr/local/bin/relay", "/opt/config.json"]
     "metricRewrite": []
 }
 
-for more details refer to https://www.npmjs.org/package/anodot-relay
 
 ```
+
+for more details about config.json refer to https://www.npmjs.org/package/anodot-relay
 
 ##### Using the service 
 - Get the token from anodot
