@@ -24,6 +24,7 @@ CMD ["/usr/local/bin/relay", "/opt/config.json"]
 
 ##### config.json
 ```
+
 {
     "url": "https://api.anodot.com",
     "token": "<YOUR API TOKEN>",
