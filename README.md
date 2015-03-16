@@ -41,6 +41,7 @@ CMD ["/usr/local/bin/relay", "/opt/config.json"]
 
 ```
 
+
 for more details about config.json refer to https://www.npmjs.org/package/anodot-relay
 
 ##### Using the service 
