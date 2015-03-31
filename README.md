@@ -35,7 +35,9 @@ CMD ["/usr/local/bin/relay", "/opt/config.json"]
     "picklePort": 2004,
     "flushInterval": 5000,
     "metricFilter": "",
-    "metricRewrite": []
+    "metricRewrite": [],
+    "metricPrefix": "",
+    "maxConnections": 100
 }
 
 
