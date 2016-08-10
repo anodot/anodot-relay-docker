@@ -1,7 +1,7 @@
 anodot-relay-docker
 ===================
 
-Anodot graphite relay service - Docker 
+Anodot graphite relay service - Docker  
 
 ### Usage
 
