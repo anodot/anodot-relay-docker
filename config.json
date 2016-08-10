@@ -8,6 +8,9 @@
     "picklePort": 2004,
     "flushInterval": 5000,
     "metricFilter": "",
-    "metricRewrite": []
+    "metricRewrite": [],
+    "metricPrefix": "",
+    "metricCounter":"",
+    "maxConnections": 100
 }
 
