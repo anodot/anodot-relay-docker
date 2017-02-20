@@ -38,7 +38,8 @@ CMD ["/usr/local/bin/relay", "/opt/config.json"]
     "metricRewrite": [],
     "metricPrefix": "",
     "metricCounter":"",
-    "maxConnections": 100
+    "maxConnections": 100,
+    "sortBeforeSend": false
 }
 
 
