@@ -1,5 +1,5 @@
 FROM ubuntu
-MAINTAINER Alex SHD "alex@shdlabs.com"
+MAINTAINER Shay Lang "shay@anodot.com"
 RUN apt-get update -y
 RUN apt-get install nodejs nodejs-legacy npm -y
 RUN npm install anodot-relay -g
