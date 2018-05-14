@@ -16,7 +16,7 @@ Anodot graphite relay service - Docker
 
 ##### Dockerfile
 ```
-FROM shaylang/anodot-relay-docker 
+FROM shaylang/anodot-relay 
 ADD ./config.json /opt/
 EXPOSE 2003 2004
 CMD ["/usr/local/bin/relay", "/opt/config.json"]

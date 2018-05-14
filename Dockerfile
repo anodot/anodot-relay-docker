@@ -1,7 +1,7 @@
 FROM ubuntu
 MAINTAINER Shay Lang "shay@anodot.com"
 RUN apt-get update -y
-RUN apt-get install nodejs nodejs-legacy npm -y
+RUN apt-get install nodejs npm -y
 RUN npm install anodot-relay -g
 ADD ./config.json /opt/
 EXPOSE 2003 2004
